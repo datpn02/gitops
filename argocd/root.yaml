@@ -4,6 +4,7 @@ metadata:
   name: root
   namespace: argocd
 spec:
+  project: default
   source:
     repoURL: https://github.com/datpn02/gitops.git
     path: argocd/apps
